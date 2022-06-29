@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "version" : "0.1",
+    "name" : "brucebabsblocker",
+    "content_scripts":[
+        {
+        "matches":["*://*.reddit.com/*"],
+        "js":["main.js"]
+        }
+    ]
+}
